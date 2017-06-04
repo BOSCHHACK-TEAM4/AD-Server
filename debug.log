@@ -1,0 +1,179 @@
+(0.004) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"GET /sensors/&callback=? HTTP/1.1" 200 138
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+"POST /sensors/ HTTP/1.1" 200 13
+Internal Server Error: /sensors/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhaochao/Desktop/Chao/Programs/Hackathon/Bosch Hackathon/website/sensors/views.py", line 166, in index
+    attributes = dic['faceAttributes']
+TypeError: string indices must be integers
+"POST /sensors/ HTTP/1.1" 500 67048
+Internal Server Error: /sensors/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhaochao/Desktop/Chao/Programs/Hackathon/Bosch Hackathon/website/sensors/views.py", line 166, in index
+    attributes = dic['faceAttributes']
+TypeError: string indices must be integers
+"POST /sensors/ HTTP/1.1" 500 67044
+Internal Server Error: /sensors/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhaochao/Desktop/Chao/Programs/Hackathon/Bosch Hackathon/website/sensors/views.py", line 166, in index
+    attributes = dic['faceAttributes']
+TypeError: string indices must be integers
+"POST /sensors/ HTTP/1.1" 500 67044
+"GET /sensors/ HTTP/1.1" 200 153
+Internal Server Error: /sensors/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhaochao/Desktop/Chao/Programs/Hackathon/Bosch Hackathon/website/sensors/views.py", line 166, in index
+    attributes = dic['faceAttributes']
+TypeError: string indices must be integers
+"POST /sensors/ HTTP/1.1" 500 67044
+"GET /sensors/ HTTP/1.1" 200 153
+Internal Server Error: /sensors/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhaochao/Desktop/Chao/Programs/Hackathon/Bosch Hackathon/website/sensors/views.py", line 166, in index
+    attributes = dic['faceAttributes']
+TypeError: string indices must be integers
+"POST /sensors/ HTTP/1.1" 500 67044
+Internal Server Error: /sensors/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhaochao/Desktop/Chao/Programs/Hackathon/Bosch Hackathon/website/sensors/views.py", line 166, in index
+    attributes = dic['faceAttributes']
+TypeError: string indices must be integers
+"POST /sensors/ HTTP/1.1" 500 67044
+Internal Server Error: /sensors/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhaochao/Desktop/Chao/Programs/Hackathon/Bosch Hackathon/website/sensors/views.py", line 166, in index
+    attributes = dic['faceAttributes']
+TypeError: string indices must be integers
+"POST /sensors/ HTTP/1.1" 500 67044
+Internal Server Error: /sensors/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhaochao/Desktop/Chao/Programs/Hackathon/Bosch Hackathon/website/sensors/views.py", line 166, in index
+    attributes = dic['faceAttributes']
+TypeError: string indices must be integers
+"POST /sensors/ HTTP/1.1" 500 67044
+Internal Server Error: /sensors/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhaochao/Desktop/Chao/Programs/Hackathon/Bosch Hackathon/website/sensors/views.py", line 166, in index
+    attributes = dic['faceAttributes']
+TypeError: string indices must be integers
+"POST /sensors/ HTTP/1.1" 500 67044
+Internal Server Error: /sensors/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhaochao/Desktop/Chao/Programs/Hackathon/Bosch Hackathon/website/sensors/views.py", line 166, in index
+    attributes = dic['faceAttributes']
+TypeError: string indices must be integers
+"POST /sensors/ HTTP/1.1" 500 67044
